@@ -1,0 +1,13 @@
+:root { --cor: #8250df; }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center;
+  font-family: system-ui, sans-serif; background: #f6f8fa; color: #1f2328; }
+.card { width: min(460px, 92vw); background: #fff; padding: 24px;
+  border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+h1 { margin: 0; color: var(--cor); }
+h2 { font-size: 1.15rem; }
+.sub { color: #656d76; font-size: .9rem; }
+button { display: block; width: 100%; margin: 8px 0; padding: 12px;
+  border: 2px solid var(--cor); border-radius: 8px; background: #fff;
+  color: var(--cor); font-size: 1rem; cursor: pointer; }
+button:hover { background: var(--cor); color: #fff; }
